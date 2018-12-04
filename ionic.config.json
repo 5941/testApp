@@ -1,0 +1,10 @@
+{
+  "name": "testApp",
+  "integrations": {
+    "cordova": {
+      "enabled": false
+    }
+  },
+  "type": "ionic-angular",
+  "pro_id": "1cd2cbec"
+}

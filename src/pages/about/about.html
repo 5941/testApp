@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      任务列表
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <button ion-item *ngFor="let task of taskList" (click)="itemSelected(task)">
+      {{ task.taskName }}
+    </button>  
+  </ion-list>
+</ion-content>
